@@ -10,7 +10,6 @@ evaluation
 evaluator.py
 app.py
 
-
 We have a golden source of truth dataset in evaluation/tests.jsonl (Typically provided by developers or subject-matter-experts)
 Here is it is artifically built with an LLM.
 
@@ -19,5 +18,6 @@ This is likely OK, as we give the judge golden source of truth (answers).
 However, it is generally recommended to use another, bigger LLM for judge, to avoid bias.
 
 Steps:
-* uv run implementation/ingest.py
-
+* uv run python implementation/ingest.py (embed chunks as vectors)
+* uv run python evaluator.py (run RAG and Answer quality evaluations)
+* uv run python app.py (GUI for chatting)
