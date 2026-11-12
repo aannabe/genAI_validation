@@ -1,0 +1,19 @@
+# Build outputs
+build/
+out/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Secrets and local config
+.env
+.env.*
+.claude/settings.local.json
+
+# OS / editor noise
+.DS_Store
+Thumbs.db

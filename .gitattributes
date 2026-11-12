@@ -1,0 +1,5 @@
+# Normalize line endings in the repo; check out as-is on each OS.
+* text=auto
+
+# Python files use LF line endings on every platform.
+*.py   text eol=lf
