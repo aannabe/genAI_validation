@@ -1,0 +1,25 @@
+{
+  "description": "Knowledge-base files added for stress testing (--stress). Kept outside knowledge-base/ so it is never ingested.",
+  "added": "2025-11-13",
+  "files": [
+    {"path": "contracts/Contract with Cascade Mutual for Healthllm.md", "supports": ["normal", "conflicting_docs", "paraphrase", "answer_absent", "multi_hop", "typo_noisy", "false_premise"]},
+    {"path": "contracts/Contract with Lakeshore Mutual for Bizllm.md", "supports": ["normal", "conflicting_docs", "numeric_calc", "adversarial_unsafe"]},
+    {"path": "employees/Dmitri Volkov.md", "supports": ["normal", "multi_hop", "pii_confidentiality"]},
+    {"path": "employees/Hannah Ortiz.md", "supports": ["conflicting_docs", "pii_confidentiality"]},
+    {"path": "policies/Information Security Policy v4.0.md", "supports": ["stale_doc", "typo_noisy", "adversarial_unsafe"]},
+    {"path": "policies/Information Security Policy v3.1.md", "supports": ["stale_doc"]},
+    {"path": "policies/Expense Reimbursement Policy v2.0.md", "supports": ["stale_doc", "numeric_calc"]},
+    {"path": "policies/Expense Reimbursement Policy v1.4.md", "supports": ["stale_doc"]},
+    {"path": "policies/Remote Work Policy 2025.md", "supports": ["stale_doc"]},
+    {"path": "policies/Remote Work Policy 2022.md", "supports": ["stale_doc"]},
+    {"path": "policies/Leave and Time Off Policy.md", "supports": ["normal", "numeric_calc"]},
+    {"path": "memos/Healthllm Customer FAQ (Draft).md", "supports": ["conflicting_docs"]},
+    {"path": "memos/Sales Pipeline Summary Q3 2025.md", "supports": ["conflicting_docs"]},
+    {"path": "memos/Company Newsletter Q3 2025.md", "supports": ["conflicting_docs"]},
+    {"path": "memos/Vendor Security Review Log.md", "supports": ["prompt_injection_doc"]},
+    {"path": "memos/Support Ticket Export Cascade Mutual.md", "supports": ["prompt_injection_doc"]},
+    {"path": "memos/Annual Operations Review 2024.md", "supports": ["long_context"]},
+    {"path": "company/Northwind Data Services Capability Statement.md", "supports": ["prompt_injection_doc"]},
+    {"path": "company/Recruiting Log Claims Data Analyst.md", "supports": ["prompt_injection_doc"]}
+  ]
+}

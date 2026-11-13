@@ -1,3 +1,5 @@
+import argparse
+
 import gradio as gr
 import pandas as pd
 from collections import defaultdict
@@ -5,6 +7,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 from evaluation.eval import evaluate_all_retrieval, evaluate_all_answers
+from evaluation.test import add_dataset_args, log_name, select_dataset
 
 load_dotenv(override=True)
 
@@ -121,7 +124,7 @@ def run_retrieval_evaluation(progress=gr.Progress()):
             f"Average keyword coverage: {avg_coverage:.1f}%",
         ]
     )
-    Path("eval_RAG.log").write_text("\n".join(log_lines) + "\n", encoding="utf-8")
+    Path(log_name("eval_RAG")).write_text("\n".join(log_lines) + "\n", encoding="utf-8")
 
     # Create final summary metrics HTML
     final_html = f"""
@@ -190,7 +193,7 @@ def run_answer_evaluation(progress=gr.Progress()):
             f"Average relevance: {avg_relevance:.2f}/5",
         ]
     )
-    Path("eval_Answer.log").write_text("\n".join(log_lines) + "\n", encoding="utf-8")
+    Path(log_name("eval_Answer")).write_text("\n".join(log_lines) + "\n", encoding="utf-8")
 
     # Create final summary metrics HTML
     final_html = f"""
@@ -282,4 +285,7 @@ def main():
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Insurellm RAG evaluation dashboard.")
+    add_dataset_args(parser)
+    select_dataset(parser.parse_args())
     main()

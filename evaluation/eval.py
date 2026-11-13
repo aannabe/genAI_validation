@@ -1,10 +1,11 @@
+import argparse
 import sys
 import math
 from pydantic import BaseModel, Field
 from litellm import completion
 from dotenv import load_dotenv
 
-from evaluation.test import TestQuestion, load_tests
+from evaluation.test import TestQuestion, add_dataset_args, load_tests, select_dataset
 from implementation.answer import answer_question, fetch_context
 
 
@@ -183,7 +184,7 @@ def evaluate_all_answers():
 def run_cli_evaluation(test_number: int):
     """Run evaluation for a specific test (async helper for CLI)."""
     # Load tests
-    tests = load_tests("tests.jsonl")
+    tests = load_tests()
 
     if test_number < 0 or test_number >= len(tests):
         print(f"Error: test_row_number must be between 0 and {len(tests) - 1}")
@@ -231,17 +232,12 @@ def run_cli_evaluation(test_number: int):
 
 def main():
     """CLI to evaluate a specific test by row number."""
-    if len(sys.argv) != 2:
-        print("Usage: uv run eval.py <test_row_number>")
-        sys.exit(1)
-
-    try:
-        test_number = int(sys.argv[1])
-    except ValueError:
-        print("Error: test_row_number must be an integer")
-        sys.exit(1)
-
-    run_cli_evaluation(test_number)
+    parser = argparse.ArgumentParser(description="Evaluate a single test question by row number.")
+    parser.add_argument("test_row_number", type=int)
+    add_dataset_args(parser)
+    args = parser.parse_args()
+    select_dataset(args)
+    run_cli_evaluation(args.test_row_number)
 
 
 if __name__ == "__main__":

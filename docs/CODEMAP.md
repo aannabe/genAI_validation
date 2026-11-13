@@ -27,10 +27,10 @@ Add application code under `python/` and tests under `python/tests/`.
 
 | Language | Files | Lines |
 |---|---:|---:|
-| Markdown | 90 | 6536 |
-| Python | 8 | 1186 |
-| Other | 12 | 211 |
-| JSON | 2 | 66 |
+| Markdown | 109 | 7192 |
+| Other | 16 | 2381 |
+| Python | 9 | 1277 |
+| JSON | 3 | 91 |
 | TOML | 1 | 53 |
 
 ### Files (line counts)
@@ -45,9 +45,9 @@ Add application code under `python/` and tests under `python/tests/`.
   CLAUDE.md (6)
   GEMINI.md (4)
   LICENSE (21)
-  README.md (84)
+  README.md (145)
   app.py (61)
-  evaluator.py (285)
+  evaluator.py (291)
   pyproject.toml (53)
 .agents/skills/code-review/
   SKILL.md (21)
@@ -72,15 +72,31 @@ Add application code under `python/` and tests under `python/tests/`.
 .vscode/
   settings.json (31)
 docs/
-  CODEMAP.md (166)
+  CODEMAP.md (198)
 evaluation/
-  eval.py (248)
-  test.py (24)
+  eval.py (244)
+  stress.jsonl (54)
+  stress_kb_manifest.json (25)
+  test.py (58)
   tests.jsonl (150)
 implementation/
   answer.py (156)
   ingest.py (151)
+initial_eval_results/
+  eval_Answer.log (1058)
+  eval_GUI.png
+  eval_RAG.log (1058)
+initial_eval_results/preprocessed_db/
+  chroma.sqlite3
+initial_eval_results/preprocessed_db/abb854d6-52d0-452c-8daf-687e35a086a1/
+  data_level0.bin
+  header.bin
+  index_metadata.pickle
+  length.bin
+  link_lists.bin
 knowledge-base/company/
+  Northwind Data Services Capability Statement.md (26)
+  Recruiting Log Claims Data Analyst.md (38)
   about.md (16)
   careers.md (139)
   culture.md (37)
@@ -91,6 +107,7 @@ knowledge-base/contracts/
   Contract with Atlantic Risk Solutions for Bizllm.md (101)
   Contract with Belvedere Insurance for Markellm.md (43)
   Contract with BrightWay Solutions for Markellm.md (63)
+  Contract with Cascade Mutual for Healthllm.md (60)
   Contract with ConnectInsure Agency for Markellm.md (141)
   Contract with Continental Commercial Group for Bizllm.md (131)
   Contract with DriveSmart Insurance for Carllm.md (198)
@@ -105,13 +122,12 @@ knowledge-base/contracts/
   Contract with Guardian Life Partners for Lifellm.md (121)
   Contract with Harmony Health Plans for Healthllm.md (152)
   Contract with Heritage Life Assurance for Lifellm.md (100)
+  Contract with Lakeshore Mutual for Bizllm.md (51)
   Contract with Metropolitan Life Group for Lifellm.md (199)
   Contract with National Claims Network for Claimllm.md (182)
   Contract with Pinnacle Insurance Co. for Homellm.md (39)
   Contract with Premier Adjusters Inc. for Claimllm.md (123)
-  Contract with Rapid Claims Associates for Claimllm.md (137)
-  Contract with Roadway Insurance Inc. for Carllm.md (44)
-  ... +7 more files
+  ... +9 more files
 knowledge-base/employees/
   Alex Chen.md (47)
   Alex Harper.md (58)
@@ -122,8 +138,10 @@ knowledge-base/employees/
   Carlos Rodriguez.md (55)
   Daniel Park.md (51)
   David Kim.md (47)
+  Dmitri Volkov.md (35)
   Emily Carter.md (49)
   Emily Tran.md (73)
+  Hannah Ortiz.md (32)
   James Wilson.md (70)
   Jennifer Adams.md (41)
   Jessica Liu.md (50)
@@ -136,9 +154,22 @@ knowledge-base/employees/
   Maya Thompson.md (46)
   Michael O'Brien.md (63)
   Michelle Rivera.md (55)
-  Nina Patel.md (54)
-  Oliver Spencer.md (37)
-  ... +7 more files
+  ... +9 more files
+knowledge-base/memos/
+  Annual Operations Review 2024.md (63)
+  Company Newsletter Q3 2025.md (18)
+  Healthllm Customer FAQ (Draft).md (23)
+  Sales Pipeline Summary Q3 2025.md (19)
+  Support Ticket Export Cascade Mutual.md (27)
+  Vendor Security Review Log.md (12)
+knowledge-base/policies/
+  Expense Reimbursement Policy v1.4.md (21)
+  Expense Reimbursement Policy v2.0.md (22)
+  Information Security Policy v3.1.md (25)
+  Information Security Policy v4.0.md (30)
+  Leave and Time Off Policy.md (23)
+  Remote Work Policy 2022.md (17)
+  Remote Work Policy 2025.md (21)
 knowledge-base/products/
   Bizllm.md (59)
   Carllm.md (67)
@@ -148,18 +179,11 @@ knowledge-base/products/
   Lifellm.md (52)
   Markellm.md (55)
   Rellm.md (60)
-preprocessed_db/
-  chroma.sqlite3
-preprocessed_db/abb854d6-52d0-452c-8daf-687e35a086a1/
-  data_level0.bin
-  header.bin
-  index_metadata.pickle
-  length.bin
-  link_lists.bin
 scripts/
   codemap.py (190)
 tests/
-  test_evaluator.py (71)
+  test_evaluator.py (85)
+  test_stress_dataset.py (41)
 ```
 
 _Symbols: install universal-ctags (`ctags`) to include them._
