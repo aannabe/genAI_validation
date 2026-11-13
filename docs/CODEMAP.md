@@ -27,11 +27,11 @@ Add application code under `python/` and tests under `python/tests/`.
 
 | Language | Files | Lines |
 |---|---:|---:|
-| Markdown | 14 | 402 |
-| Python | 1 | 190 |
-| JSON | 2 | 61 |
-| Other | 4 | 60 |
-| TOML | 1 | 26 |
+| Markdown | 90 | 6536 |
+| Python | 8 | 1186 |
+| Other | 12 | 211 |
+| JSON | 2 | 66 |
+| TOML | 1 | 53 |
 
 ### Files (line counts)
 
@@ -40,12 +40,15 @@ Add application code under `python/` and tests under `python/tests/`.
   .editorconfig (15)
   .gitattributes (5)
   .gitignore (19)
+  .python-version (1)
   AGENTS.md (61)
   CLAUDE.md (6)
   GEMINI.md (4)
   LICENSE (21)
-  README.md (72)
-  pyproject.toml (26)
+  README.md (84)
+  app.py (61)
+  evaluator.py (285)
+  pyproject.toml (53)
 .agents/skills/code-review/
   SKILL.md (21)
 .agents/skills/debugging/
@@ -67,11 +70,96 @@ Add application code under `python/` and tests under `python/tests/`.
 .github/
   copilot-instructions.md (11)
 .vscode/
-  settings.json (26)
+  settings.json (31)
 docs/
-  CODEMAP.md (78)
+  CODEMAP.md (166)
+evaluation/
+  eval.py (248)
+  test.py (24)
+  tests.jsonl (150)
+implementation/
+  answer.py (156)
+  ingest.py (151)
+knowledge-base/company/
+  about.md (16)
+  careers.md (139)
+  culture.md (37)
+  overview.md (51)
+knowledge-base/contracts/
+  Contract with Advantage Medical Coverage for Healthllm.md (93)
+  Contract with Apex Reinsurance for Rellm - AI-Powered Enterprise Reinsurance Solution.md (53)
+  Contract with Atlantic Risk Solutions for Bizllm.md (101)
+  Contract with Belvedere Insurance for Markellm.md (43)
+  Contract with BrightWay Solutions for Markellm.md (63)
+  Contract with ConnectInsure Agency for Markellm.md (141)
+  Contract with Continental Commercial Group for Bizllm.md (131)
+  Contract with DriveSmart Insurance for Carllm.md (198)
+  Contract with EverGuard Insurance for Rellm - AI-Powered Enterprise Reinsurance Solution.md (58)
+  Contract with Evergreen Life Insurance for Lifellm.md (137)
+  Contract with FastTrack Insurance Services for Claimllm.md (73)
+  Contract with Fortress Business Underwriters for Bizllm.md (87)
+  Contract with GlobalRe Partners for Rellm.md (292)
+  Contract with GreenField Holdings for Markellm.md (34)
+  Contract with GreenValley Insurance for Homellm.md (77)
+  Contract with Greenstone Insurance for Homellm.md (73)
+  Contract with Guardian Life Partners for Lifellm.md (121)
+  Contract with Harmony Health Plans for Healthllm.md (152)
+  Contract with Heritage Life Assurance for Lifellm.md (100)
+  Contract with Metropolitan Life Group for Lifellm.md (199)
+  Contract with National Claims Network for Claimllm.md (182)
+  Contract with Pinnacle Insurance Co. for Homellm.md (39)
+  Contract with Premier Adjusters Inc. for Claimllm.md (123)
+  Contract with Rapid Claims Associates for Claimllm.md (137)
+  Contract with Roadway Insurance Inc. for Carllm.md (44)
+  ... +7 more files
+knowledge-base/employees/
+  Alex Chen.md (47)
+  Alex Harper.md (58)
+  Alex Thomson.md (37)
+  Amanda Foster.md (67)
+  Avery Lancaster.md (64)
+  Brandon Walker.md (47)
+  Carlos Rodriguez.md (55)
+  Daniel Park.md (51)
+  David Kim.md (47)
+  Emily Carter.md (49)
+  Emily Tran.md (73)
+  James Wilson.md (70)
+  Jennifer Adams.md (41)
+  Jessica Liu.md (50)
+  Jordan Blake.md (35)
+  Jordan K. Bishop.md (38)
+  Kevin Zhang.md (51)
+  Lisa Anderson.md (55)
+  Marcus Johnson.md (52)
+  Maxine Thompson.md (54)
+  Maya Thompson.md (46)
+  Michael O'Brien.md (63)
+  Michelle Rivera.md (55)
+  Nina Patel.md (54)
+  Oliver Spencer.md (37)
+  ... +7 more files
+knowledge-base/products/
+  Bizllm.md (59)
+  Carllm.md (67)
+  Claimllm.md (62)
+  Healthllm.md (56)
+  Homellm.md (45)
+  Lifellm.md (52)
+  Markellm.md (55)
+  Rellm.md (60)
+preprocessed_db/
+  chroma.sqlite3
+preprocessed_db/abb854d6-52d0-452c-8daf-687e35a086a1/
+  data_level0.bin
+  header.bin
+  index_metadata.pickle
+  length.bin
+  link_lists.bin
 scripts/
   codemap.py (190)
+tests/
+  test_evaluator.py (71)
 ```
 
 _Symbols: install universal-ctags (`ctags`) to include them._

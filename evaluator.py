@@ -1,6 +1,7 @@
 import gradio as gr
 import pandas as pd
 from collections import defaultdict
+from pathlib import Path
 from dotenv import load_dotenv
 
 from evaluation.eval import evaluate_all_retrieval, evaluate_all_answers
@@ -82,6 +83,7 @@ def run_retrieval_evaluation(progress=gr.Progress()):
     total_ndcg = 0.0
     total_coverage = 0.0
     category_mrr = defaultdict(list)
+    log_lines = ["Retrieval Evaluation Results", "============================", ""]
     count = 0
 
     for test, result, prog_value in evaluate_all_retrieval():
@@ -94,11 +96,32 @@ def run_retrieval_evaluation(progress=gr.Progress()):
 
         # Update progress bar only
         progress(prog_value, desc=f"Evaluating test {count}...")
+        log_lines.extend(
+            [
+                f"Test {count} ({test.category})",
+                f"Question: {test.question}",
+                f"MRR: {result.mrr:.4f}",
+                f"nDCG: {result.ndcg:.4f}",
+                f"Keywords found: {result.keywords_found}/{result.total_keywords}",
+                f"Keyword coverage: {result.keyword_coverage:.1f}%",
+                "",
+            ]
+        )
 
     # Calculate final averages
     avg_mrr = total_mrr / count
     avg_ndcg = total_ndcg / count
     avg_coverage = total_coverage / count
+    log_lines.extend(
+        [
+            "Summary",
+            f"Tests: {count}",
+            f"Average MRR: {avg_mrr:.4f}",
+            f"Average nDCG: {avg_ndcg:.4f}",
+            f"Average keyword coverage: {avg_coverage:.1f}%",
+        ]
+    )
+    Path("eval_RAG.log").write_text("\n".join(log_lines) + "\n", encoding="utf-8")
 
     # Create final summary metrics HTML
     final_html = f"""
@@ -129,6 +152,7 @@ def run_answer_evaluation(progress=gr.Progress()):
     total_completeness = 0.0
     total_relevance = 0.0
     category_accuracy = defaultdict(list)
+    log_lines = ["Answer Evaluation Results", "=========================", ""]
     count = 0
 
     for test, result, prog_value in evaluate_all_answers():
@@ -141,11 +165,32 @@ def run_answer_evaluation(progress=gr.Progress()):
 
         # Update progress bar only
         progress(prog_value, desc=f"Evaluating test {count}...")
+        log_lines.extend(
+            [
+                f"Test {count} ({test.category})",
+                f"Question: {test.question}",
+                f"Accuracy: {result.accuracy:.2f}/5",
+                f"Completeness: {result.completeness:.2f}/5",
+                f"Relevance: {result.relevance:.2f}/5",
+                f"Feedback: {result.feedback}",
+                "",
+            ]
+        )
 
     # Calculate final averages
     avg_accuracy = total_accuracy / count
     avg_completeness = total_completeness / count
     avg_relevance = total_relevance / count
+    log_lines.extend(
+        [
+            "Summary",
+            f"Tests: {count}",
+            f"Average accuracy: {avg_accuracy:.2f}/5",
+            f"Average completeness: {avg_completeness:.2f}/5",
+            f"Average relevance: {avg_relevance:.2f}/5",
+        ]
+    )
+    Path("eval_Answer.log").write_text("\n".join(log_lines) + "\n", encoding="utf-8")
 
     # Create final summary metrics HTML
     final_html = f"""
@@ -163,7 +208,9 @@ def run_answer_evaluation(progress=gr.Progress()):
     category_data = []
     for category, accuracy_scores in category_accuracy.items():
         avg_cat_accuracy = sum(accuracy_scores) / len(accuracy_scores)
-        category_data.append({"Category": category, "Average Accuracy": avg_cat_accuracy})
+        category_data.append(
+            {"Category": category, "Average Accuracy": avg_cat_accuracy}
+        )
 
     df = pd.DataFrame(category_data)
 
@@ -176,7 +223,9 @@ def main():
 
     with gr.Blocks(title="RAG Evaluation Dashboard", theme=theme) as app:
         gr.Markdown("# 📊 RAG Evaluation Dashboard")
-        gr.Markdown("Evaluate retrieval and answer quality for the Insurellm RAG system")
+        gr.Markdown(
+            "Evaluate retrieval and answer quality for the Insurellm RAG system"
+        )
 
         # RETRIEVAL SECTION
         gr.Markdown("## 🔍 Retrieval Evaluation")

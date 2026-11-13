@@ -1,0 +1,1058 @@
+Retrieval Evaluation Results
+============================
+
+Test 1 (direct_fact)
+Question: Who won the prestigious IIOTY award in 2023?
+MRR: 0.6667
+nDCG: 0.6667
+Keywords found: 2/3
+Keyword coverage: 66.7%
+
+Test 2 (direct_fact)
+Question: When was Insurellm founded?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 3 (direct_fact)
+Question: Who founded Insurellm?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 4 (direct_fact)
+Question: How many employees does Insurellm currently have?
+MRR: 1.0000
+nDCG: 0.9948
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 5 (direct_fact)
+Question: What was Insurellm's first product?
+MRR: 1.0000
+nDCG: 0.9714
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 6 (direct_fact)
+Question: How many active contracts does Insurellm manage?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 7 (direct_fact)
+Question: Where is Insurellm's headquarters located?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 8 (direct_fact)
+Question: How many office locations does Insurellm maintain?
+MRR: 1.0000
+nDCG: 0.9375
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 9 (direct_fact)
+Question: What is Insurellm's vision statement?
+MRR: 1.0000
+nDCG: 0.9645
+Keywords found: 3/3
+Keyword coverage: 100.0%
+
+Test 10 (direct_fact)
+Question: How many Bizllm contracts has Insurellm secured?
+MRR: 1.0000
+nDCG: 0.9975
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 11 (direct_fact)
+Question: How many Claimllm contracts does Insurellm have?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 12 (direct_fact)
+Question: How many life insurance contracts has Lifellm secured?
+MRR: 1.0000
+nDCG: 0.9969
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 13 (direct_fact)
+Question: How many health insurance contracts does Healthllm have?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 14 (direct_fact)
+Question: What is the monthly cost of Carllm's Basic Tier?
+MRR: 0.8333
+nDCG: 0.8824
+Keywords found: 3/3
+Keyword coverage: 100.0%
+
+Test 15 (direct_fact)
+Question: What is the monthly cost of Carllm's Enterprise Tier?
+MRR: 0.8333
+nDCG: 0.8770
+Keywords found: 3/3
+Keyword coverage: 100.0%
+
+Test 16 (direct_fact)
+Question: What is the monthly cost of Homellm's Standard Tier?
+MRR: 0.8333
+nDCG: 0.9174
+Keywords found: 3/3
+Keyword coverage: 100.0%
+
+Test 17 (direct_fact)
+Question: What is the monthly cost of Bizllm's Professional Tier?
+MRR: 1.0000
+nDCG: 0.9665
+Keywords found: 3/3
+Keyword coverage: 100.0%
+
+Test 18 (direct_fact)
+Question: What is the monthly cost of Claimllm's Core Tier?
+MRR: 0.8333
+nDCG: 0.8648
+Keywords found: 3/3
+Keyword coverage: 100.0%
+
+Test 19 (direct_fact)
+Question: What is the monthly cost of Healthllm's Essential Tier?
+MRR: 0.8333
+nDCG: 0.8781
+Keywords found: 3/3
+Keyword coverage: 100.0%
+
+Test 20 (direct_fact)
+Question: What is the monthly cost of Lifellm's Starter Tier?
+MRR: 0.7778
+nDCG: 0.8855
+Keywords found: 3/3
+Keyword coverage: 100.0%
+
+Test 21 (direct_fact)
+Question: What is the monthly cost of Rellm's Basic Plan?
+MRR: 1.0000
+nDCG: 0.9670
+Keywords found: 3/3
+Keyword coverage: 100.0%
+
+Test 22 (direct_fact)
+Question: What is Maxine Thompson's current job title?
+MRR: 1.0000
+nDCG: 0.9530
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 23 (direct_fact)
+Question: What is Maxine Thompson's current salary?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 24 (direct_fact)
+Question: Where is Maxine Thompson located?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 3/3
+Keyword coverage: 100.0%
+
+Test 25 (direct_fact)
+Question: What is Avery Lancaster's job title?
+MRR: 1.0000
+nDCG: 0.9903
+Keywords found: 3/3
+Keyword coverage: 100.0%
+
+Test 26 (direct_fact)
+Question: What is Avery Lancaster's current salary?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 27 (direct_fact)
+Question: What is James Wilson's job title?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 3/3
+Keyword coverage: 100.0%
+
+Test 28 (direct_fact)
+Question: What is James Wilson's current salary?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 3/3
+Keyword coverage: 100.0%
+
+Test 29 (direct_fact)
+Question: What is Priya Sharma's job title?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 30 (direct_fact)
+Question: What is Priya Sharma's current salary?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 31 (direct_fact)
+Question: What is Robert Chen's job title?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 32 (direct_fact)
+Question: What is Robert Chen's current salary?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 33 (direct_fact)
+Question: Which product does Robert Chen serve as technical lead for?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 3/3
+Keyword coverage: 100.0%
+
+Test 34 (direct_fact)
+Question: What is David Kim's job title?
+MRR: 1.0000
+nDCG: 0.9965
+Keywords found: 3/3
+Keyword coverage: 100.0%
+
+Test 35 (direct_fact)
+Question: What is Sarah Williams's job title?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 36 (direct_fact)
+Question: Which product does Sarah Williams lead design for?
+MRR: 1.0000
+nDCG: 0.9898
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 37 (direct_fact)
+Question: What is Marcus Johnson's job title?
+MRR: 1.0000
+nDCG: 0.9938
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 38 (direct_fact)
+Question: What is Marcus Johnson's client retention rate?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 3/3
+Keyword coverage: 100.0%
+
+Test 39 (direct_fact)
+Question: What is Lisa Anderson's job title?
+MRR: 1.0000
+nDCG: 0.9857
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 40 (direct_fact)
+Question: What is the size of Lisa Anderson's annual marketing budget?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 41 (direct_fact)
+Question: What is Emily Carter's job title?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 42 (direct_fact)
+Question: What is the contract number for DriveSmart Insurance's Carllm agreement?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 43 (direct_fact)
+Question: What is the duration of the DriveSmart Insurance Carllm contract?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 44 (direct_fact)
+Question: What is the total contract value for DriveSmart Insurance's Carllm agreement?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 45 (direct_fact)
+Question: How many active auto policies does DriveSmart Insurance have?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 3/3
+Keyword coverage: 100.0%
+
+Test 46 (direct_fact)
+Question: What is the uptime SLA guarantee for DriveSmart Insurance?
+MRR: 1.0000
+nDCG: 0.9732
+Keywords found: 3/3
+Keyword coverage: 100.0%
+
+Test 47 (direct_fact)
+Question: Who signed the DriveSmart Insurance contract on behalf of Insurellm?
+MRR: 0.5000
+nDCG: 0.5000
+Keywords found: 1/2
+Keyword coverage: 50.0%
+
+Test 48 (direct_fact)
+Question: What is the monthly payment for Greenstone Insurance's Homellm contract?
+MRR: 1.0000
+nDCG: 0.8797
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 49 (direct_fact)
+Question: What tier did Harmony Health Plans subscribe to for Healthllm?
+MRR: 1.0000
+nDCG: 0.9765
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 50 (direct_fact)
+Question: What is the monthly cost for Harmony Health Plans' Healthllm subscription?
+MRR: 1.0000
+nDCG: 0.9395
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 51 (direct_fact)
+Question: How many covered members does Harmony Health Plans have?
+MRR: 1.0000
+nDCG: 0.9863
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 52 (direct_fact)
+Question: Who signed the Harmony Health Plans contract on behalf of Insurellm?
+MRR: 1.0000
+nDCG: 0.8952
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 53 (direct_fact)
+Question: What is the contract number for Metropolitan Life Group's Lifellm agreement?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 54 (direct_fact)
+Question: What is the total contract value for Metropolitan Life Group's Lifellm agreement?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 55 (direct_fact)
+Question: How many active policies does Metropolitan Life Group manage?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 56 (direct_fact)
+Question: Who signed the Metropolitan Life Group contract on behalf of the client?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 57 (direct_fact)
+Question: What tier did FastTrack Insurance Services subscribe to for Claimllm?
+MRR: 1.0000
+nDCG: 0.9921
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 58 (direct_fact)
+Question: What is the monthly payment for FastTrack Insurance Services' Claimllm contract?
+MRR: 1.0000
+nDCG: 0.9387
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 59 (direct_fact)
+Question: What is the duration of the FastTrack Insurance Services contract?
+MRR: 1.0000
+nDCG: 0.8955
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 60 (direct_fact)
+Question: Who signed the FastTrack Insurance Services contract on behalf of Insurellm?
+MRR: 1.0000
+nDCG: 0.9090
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 61 (direct_fact)
+Question: What tier did Atlantic Risk Solutions subscribe to for Bizllm?
+MRR: 1.0000
+nDCG: 0.9776
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 62 (direct_fact)
+Question: What is the monthly cost for Atlantic Risk Solutions' Bizllm subscription?
+MRR: 1.0000
+nDCG: 0.9342
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 63 (direct_fact)
+Question: How many user licenses are included in Atlantic Risk Solutions' contract?
+MRR: 0.6000
+nDCG: 0.7999
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 64 (direct_fact)
+Question: Who signed the Atlantic Risk Solutions contract on behalf of Insurellm?
+MRR: 1.0000
+nDCG: 0.9099
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 65 (direct_fact)
+Question: What is the monthly fee for Belvedere Insurance's Markellm listing?
+MRR: 1.0000
+nDCG: 0.9342
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 66 (temporal)
+Question: When did Maxine Thompson join Insurellm?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 67 (temporal)
+Question: When did James Wilson join Insurellm?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 3/3
+Keyword coverage: 100.0%
+
+Test 68 (temporal)
+Question: When did Insurellm reach its peak of 200 employees?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 69 (temporal)
+Question: When did Insurellm undergo strategic restructuring?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 70 (temporal)
+Question: When is Carllm's telematics-based pricing feature scheduled to launch?
+MRR: 1.0000
+nDCG: 0.9534
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 71 (temporal)
+Question: When is Homellm version 2.0 scheduled for release?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 72 (temporal)
+Question: When is Bizllm version 1.0 scheduled to launch?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 73 (temporal)
+Question: When is Claimllm version 1.0 scheduled to launch?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 74 (temporal)
+Question: When is Lifellm version 1.0 scheduled to launch?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 75 (temporal)
+Question: When is Healthllm version 1.0 scheduled to launch?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 76 (temporal)
+Question: When was the DriveSmart Insurance contract for Carllm signed?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 77 (temporal)
+Question: When was the Harmony Health Plans Healthllm contract effective?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 78 (temporal)
+Question: When was the Metropolitan Life Group Lifellm contract signed?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 79 (temporal)
+Question: When was the FastTrack Insurance Services Claimllm contract signed?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 80 (temporal)
+Question: When was the Atlantic Risk Solutions Bizllm contract effective?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 81 (comparative)
+Question: How much did Priya Sharma's recommendation engine increase conversion by for Marketllm?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 3/3
+Keyword coverage: 100.0%
+
+Test 82 (comparative)
+Question: By what percentage did David Kim reduce deployment time with CI/CD pipelines?
+MRR: 0.8333
+nDCG: 0.9175
+Keywords found: 3/3
+Keyword coverage: 100.0%
+
+Test 83 (comparative)
+Question: By what percentage did Sarah Williams improve user satisfaction scores?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 84 (comparative)
+Question: By what percentage has Lisa Anderson increased qualified leads since 2021?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 85 (comparative)
+Question: By what percentage did Emily Carter exceed her annual sales target in 2022?
+MRR: 0.6667
+nDCG: 0.5943
+Keywords found: 2/3
+Keyword coverage: 66.7%
+
+Test 86 (comparative)
+Question: What is the performance-based pricing for Belvedere Insurance's Markellm contract?
+MRR: 1.0000
+nDCG: 0.9476
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 87 (comparative)
+Question: What is the monthly cost for Stellar Insurance Co.'s Rellm subscription?
+MRR: 1.0000
+nDCG: 0.8815
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 88 (comparative)
+Question: What are Insurellm's four core values?
+MRR: 1.0000
+nDCG: 0.9667
+Keywords found: 3/3
+Keyword coverage: 100.0%
+
+Test 89 (comparative)
+Question: What award did Alex Harper win in 2022?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 3/3
+Keyword coverage: 100.0%
+
+Test 90 (comparative)
+Question: When was the Stellar Insurance Co. Rellm contract effective?
+MRR: 1.0000
+nDCG: 0.9158
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 91 (numerical)
+Question: How many claims does FastTrack Insurance Services project for year 1?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 92 (numerical)
+Question: How much annual revenue does Marcus Johnson's portfolio generate?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 93 (numerical)
+Question: What percentage of quota did Jennifer Adams achieve in 2023?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 94 (numerical)
+Question: How many products does Insurellm offer?
+MRR: 1.0000
+nDCG: 0.9426
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 95 (numerical)
+Question: What is the monthly cost of Carllm's Professional Tier?
+MRR: 1.0000
+nDCG: 0.9890
+Keywords found: 3/3
+Keyword coverage: 100.0%
+
+Test 96 (relationship)
+Question: What are the core insurance portals offered by Insurellm?
+MRR: 1.0000
+nDCG: 0.9826
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 97 (relationship)
+Question: What are the marketplace and infrastructure products offered by Insurellm?
+MRR: 1.0000
+nDCG: 0.9885
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 98 (relationship)
+Question: Which product does Jessica Liu develop for?
+MRR: 1.0000
+nDCG: 0.9854
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 99 (relationship)
+Question: What is Tyler Brooks's job title?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 100 (relationship)
+Question: Which product does Tyler Brooks work on?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 101 (spanning)
+Question: What is the job title of the IIOTY award winner?
+MRR: 0.5000
+nDCG: 0.5000
+Keywords found: 2/4
+Keyword coverage: 50.0%
+
+Test 102 (spanning)
+Question: Who is the technical lead for the product that costs $10,000/month for Standard Tier?
+MRR: 0.2500
+nDCG: 0.2126
+Keywords found: 1/4
+Keyword coverage: 25.0%
+
+Test 103 (spanning)
+Question: What is the salary of the CTO who joined in January 2017?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 4/4
+Keyword coverage: 100.0%
+
+Test 104 (spanning)
+Question: What is the current salary of the founder of Insurellm?
+MRR: 1.0000
+nDCG: 0.9898
+Keywords found: 4/4
+Keyword coverage: 100.0%
+
+Test 105 (spanning)
+Question: Which product did the Senior Data Scientist build a recommendation engine for that increased conversion by 28%?
+MRR: 0.0000
+nDCG: 0.0000
+Keywords found: 0/4
+Keyword coverage: 0.0%
+
+Test 106 (spanning)
+Question: Which product does the UX Designer who improved user satisfaction by 35% lead design for?
+MRR: 0.7500
+nDCG: 0.7356
+Keywords found: 3/4
+Keyword coverage: 75.0%
+
+Test 107 (spanning)
+Question: What is the annual marketing budget managed by the Marketing Manager in Austin?
+MRR: 0.8333
+nDCG: 0.8927
+Keywords found: 4/4
+Keyword coverage: 100.0%
+
+Test 108 (spanning)
+Question: Who signed the contract on behalf of Insurellm for the client that pays $18,000 per month for Carllm?
+MRR: 0.5000
+nDCG: 0.5755
+Keywords found: 3/4
+Keyword coverage: 75.0%
+
+Test 109 (spanning)
+Question: What tier did the client with 35 user licenses subscribe to for Bizllm?
+MRR: 0.6000
+nDCG: 0.7819
+Keywords found: 5/5
+Keyword coverage: 100.0%
+
+Test 110 (spanning)
+Question: How many covered members does the client who subscribed to Healthllm Professional Tier for $15,000/month have?
+MRR: 0.7000
+nDCG: 0.8358
+Keywords found: 5/5
+Keyword coverage: 100.0%
+
+Test 111 (spanning)
+Question: Who signed the Metropolitan Life Group contract that totals $1,098,000?
+MRR: 0.5000
+nDCG: 0.5262
+Keywords found: 3/5
+Keyword coverage: 60.0%
+
+Test 112 (spanning)
+Question: What is the total contract value for the client paying $12,000 per month for Bizllm Professional Tier?
+MRR: 1.0000
+nDCG: 0.9093
+Keywords found: 4/4
+Keyword coverage: 100.0%
+
+Test 113 (spanning)
+Question: By what percentage did the DevOps Engineer in New York reduce deployment time?
+MRR: 0.8000
+nDCG: 0.8332
+Keywords found: 4/4
+Keyword coverage: 100.0%
+
+Test 114 (spanning)
+Question: What is the annual revenue generated by the portfolio managed by the Customer Success Manager in New York?
+MRR: 0.6333
+nDCG: 0.7292
+Keywords found: 4/4
+Keyword coverage: 100.0%
+
+Test 115 (spanning)
+Question: By what percentage did the Account Executive in Austin exceed their annual sales target in 2022?
+MRR: 0.7000
+nDCG: 0.6348
+Keywords found: 4/5
+Keyword coverage: 80.0%
+
+Test 116 (spanning)
+Question: When is the telematics-based pricing feature scheduled to launch for the product that costs $1,000/month for Basic Tier?
+MRR: 0.7083
+nDCG: 0.7903
+Keywords found: 4/4
+Keyword coverage: 100.0%
+
+Test 117 (spanning)
+Question: What is the monthly cost for the Basic Listing Fee on the marketplace that was Insurellm's first product?
+MRR: 0.5000
+nDCG: 0.6110
+Keywords found: 2/3
+Keyword coverage: 66.7%
+
+Test 118 (spanning)
+Question: How many core values does the company founded by Avery Lancaster have?
+MRR: 0.5500
+nDCG: 0.7788
+Keywords found: 5/5
+Keyword coverage: 100.0%
+
+Test 119 (spanning)
+Question: What tier of Healthllm costs $15,000 per month and includes Advanced Medication Management?
+MRR: 0.8750
+nDCG: 0.8682
+Keywords found: 4/4
+Keyword coverage: 100.0%
+
+Test 120 (spanning)
+Question: How many active policies does the client who pays $28,000 per month for Lifellm manage?
+MRR: 0.8000
+nDCG: 0.7108
+Keywords found: 4/5
+Keyword coverage: 80.0%
+
+Test 121 (direct_fact)
+Question: What is Alex Chen's current job title?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 122 (direct_fact)
+Question: What is Carlos Rodriguez's current salary?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 123 (direct_fact)
+Question: What is the monthly cost of the Bizllm Business Tier?
+MRR: 1.0000
+nDCG: 0.9572
+Keywords found: 3/3
+Keyword coverage: 100.0%
+
+Test 124 (direct_fact)
+Question: What is Nina Patel's job title?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 125 (direct_fact)
+Question: What is the contract number for the GreenValley Insurance Homellm agreement?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 126 (temporal)
+Question: When did Alex Chen join Insurellm?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 127 (temporal)
+Question: When was the GreenValley Insurance Homellm contract signed?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 128 (temporal)
+Question: When was the Summit Commercial Insurance Bizllm contract effective?
+MRR: 1.0000
+nDCG: 0.9386
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 129 (temporal)
+Question: When was the Roadway Insurance Carllm contract effective?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 130 (temporal)
+Question: When was the Evergreen Life Insurance Lifellm contract signed?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 131 (numerical)
+Question: How many employees did Insurellm have at its peak in 2020?
+MRR: 1.0000
+nDCG: 0.9892
+Keywords found: 3/3
+Keyword coverage: 100.0%
+
+Test 132 (numerical)
+Question: What is the monthly cost for Apex Reinsurance's Rellm subscription?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 133 (numerical)
+Question: How many active policies does Evergreen Life Insurance currently manage?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 134 (numerical)
+Question: How many user licenses are provided for onboarding training in the Summit Commercial Insurance contract?
+MRR: 1.0000
+nDCG: 0.9926
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 135 (numerical)
+Question: How much new business did Michael O'Brien generate over the past 3 years?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 3/3
+Keyword coverage: 100.0%
+
+Test 136 (relationship)
+Question: Which product does Rachel Martinez lead product strategy for?
+MRR: 0.8333
+nDCG: 0.9310
+Keywords found: 3/3
+Keyword coverage: 100.0%
+
+Test 137 (relationship)
+Question: Which mobile app does Kevin Zhang lead iOS development for?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 3/3
+Keyword coverage: 100.0%
+
+Test 138 (relationship)
+Question: Which tier of Bizllm did Summit Commercial Insurance subscribe to?
+MRR: 1.0000
+nDCG: 0.9807
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 139 (relationship)
+Question: What award did Carlos Rodriguez win in 2023?
+MRR: 1.0000
+nDCG: 1.0000
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 140 (relationship)
+Question: Who signed the Summit Commercial Insurance contract on behalf of Insurellm?
+MRR: 1.0000
+nDCG: 0.9583
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 141 (holistic)
+Question: How many employees at Insurellm have a current salary under $80,000?
+MRR: 0.6000
+nDCG: 0.7999
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 142 (holistic)
+Question: What is the total contract value of all Healthllm contracts combined?
+MRR: 0.7500
+nDCG: 0.9164
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 143 (holistic)
+Question: Which product line has the most active contracts according to the company overview?
+MRR: 0.6667
+nDCG: 0.7500
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 144 (holistic)
+Question: How many total employees work at Insurellm across all locations?
+MRR: 0.5000
+nDCG: 0.4986
+Keywords found: 1/2
+Keyword coverage: 50.0%
+
+Test 145 (holistic)
+Question: What is the average monthly subscription cost across all Carllm contracts?
+MRR: 0.5000
+nDCG: 0.4948
+Keywords found: 1/2
+Keyword coverage: 50.0%
+
+Test 146 (holistic)
+Question: How many different insurance product lines does Insurellm offer in total?
+MRR: 0.1250
+nDCG: 0.4250
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 147 (holistic)
+Question: Which product has the fewest active contracts according to the portfolio breakdown?
+MRR: 0.5000
+nDCG: 0.5000
+Keywords found: 1/2
+Keyword coverage: 50.0%
+
+Test 148 (holistic)
+Question: What is the total number of active contracts across all Insurellm products?
+MRR: 0.5000
+nDCG: 0.5000
+Keywords found: 1/2
+Keyword coverage: 50.0%
+
+Test 149 (holistic)
+Question: How many states does United Healthcare Alliance operate in according to their contract?
+MRR: 1.0000
+nDCG: 0.8902
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Test 150 (holistic)
+Question: What is the longest contract duration among all Insurellm contracts?
+MRR: 1.0000
+nDCG: 0.9948
+Keywords found: 2/2
+Keyword coverage: 100.0%
+
+Summary
+Tests: 150
+Average MRR: 0.9092
+Average nDCG: 0.9108
+Average keyword coverage: 95.3%

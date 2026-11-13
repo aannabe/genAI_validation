@@ -15,6 +15,6 @@ description: Systematic debugging of failing builds, crashes, wrong output, flak
    or `git checkout` without asking.
 5. **Fix the root cause**, not the symptom. Do not silence errors, add blanket `try/except`, or
    suppress warnings to make output disappear.
-6. **Prove it.** Add a regression test, run the full verify loop, and remove temporary debug output.
+6. **Prove it.** Whenever needed, add a regression test, run the full verify loop, and remove temporary debug output.
 7. **Stop after 5 failed attempts.** Report what you observed, what you ruled out and what you
    would try next; ask the user for missing information.
