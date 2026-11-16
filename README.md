@@ -143,3 +143,33 @@ An LLM judge compares each generated answer with the reference answer and scores
 
 The answer model and judge currently use the same configured LLM (`openai/gpt-6-luna`), which can
 introduce evaluation bias. A separate judge model may provide a more independent assessment.
+
+## Results summary
+
+The table summarizes the saved runs: the **baseline** uses 150 initial questions and the preserved
+baseline index; **stress** uses 54 challenger questions across 18 categories and an expanded
+knowledge base. Retrieval metrics are averaged per question; answer scores are judged on a 1–5
+scale.
+
+| Metric | Baseline (150) | Stress (54) |
+|---|---:|---:|
+| MRR | 0.9092 | 0.7702 |
+| nDCG | 0.9108 | 0.8238 |
+| Keyword coverage | 95.3% | 94.4% |
+| Answer accuracy | 4.44/5 | 3.61/5 |
+| Answer completeness | 4.43/5 | 3.74/5 |
+| Answer relevance | 4.57/5 | 3.63/5 |
+
+Keyword coverage remained high on the stress set, but retrieval ranking and answer scores were
+lower. The judge gave all three ambiguous questions an accuracy score of 1/5 for not requesting
+clarification. It also flagged disclosures of restricted information in some privacy and
+user-injection cases, and failures to redirect some out-of-scope requests. Each stress category
+has only three questions, so individual results can strongly affect category-level conclusions.
+
+These are different question sets and indexes, not a controlled before-and-after comparison.
+Keyword matches do not establish that retrieved text is authoritative or that an answer is safe;
+the synthetic references and LLM judge also limit the conclusions. See the baseline
+[retrieval](./initial_eval_results/eval_RAG.log) and
+[answer](./initial_eval_results/eval_Answer.log) logs and the stress
+[retrieval](./eval_RAG_stress.log) and [answer](./eval_Answer_stress.log) logs for per-question
+scores and judge feedback.

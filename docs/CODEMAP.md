@@ -27,8 +27,8 @@ Add application code under `python/` and tests under `python/tests/`.
 
 | Language | Files | Lines |
 |---|---:|---:|
-| Markdown | 109 | 7192 |
-| Other | 16 | 2381 |
+| Markdown | 109 | 7184 |
+| Other | 24 | 3153 |
 | Python | 9 | 1277 |
 | JSON | 3 | 91 |
 | TOML | 1 | 53 |
@@ -47,6 +47,8 @@ Add application code under `python/` and tests under `python/tests/`.
   LICENSE (21)
   README.md (145)
   app.py (61)
+  eval_Answer_stress.log (386)
+  eval_RAG_stress.log (386)
   evaluator.py (291)
   pyproject.toml (53)
 .agents/skills/code-review/
@@ -72,7 +74,7 @@ Add application code under `python/` and tests under `python/tests/`.
 .vscode/
   settings.json (31)
 docs/
-  CODEMAP.md (198)
+  CODEMAP.md (190)
 evaluation/
   eval.py (244)
   stress.jsonl (54)
@@ -179,6 +181,14 @@ knowledge-base/products/
   Lifellm.md (52)
   Markellm.md (55)
   Rellm.md (60)
+preprocessed_db/
+  chroma.sqlite3
+preprocessed_db/4032f79b-5924-4ac7-a4ea-a0bf30e2f9ca/
+  data_level0.bin
+  header.bin
+  index_metadata.pickle
+  length.bin
+  link_lists.bin
 scripts/
   codemap.py (190)
 tests/
